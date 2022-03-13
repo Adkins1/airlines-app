@@ -6,9 +6,9 @@ interface Props {
 }
 
 const Results: React.FC<Props> = ({ flights }) => {
-  useEffect(() => {
-    console.log(flights)
-  }, [flights])
+  // useEffect(() => {
+  //   console.log(flights)
+  // }, [flights])
 
   return (
     <section>
